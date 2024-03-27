@@ -22,18 +22,23 @@ requirements:
     - cmake
   host:
     - gsl
+  run:
+    - gsl
+
+test:
+  commands:
+    - physher
 
 about:
   home: https://github.com/4ment/physher
-  license: GPL3
-  license_family: GPL3
+  license: GPL-2.0-or-later
+  license_family: GPL2
   license_file: LICENSE
-  summary: phylogenetic program
-  doc_url: 
-  dev_url: 
+  summary: A multi-algorithmic framework for phylogenetic inference
 
 extra:
-  recipe-maintainers:
+  maintainers:
     - 4ment
   identifiers:
     - doi:10.1186/s12862-014-0163-6
+    - biotools:physher
